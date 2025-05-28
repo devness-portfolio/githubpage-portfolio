@@ -26,10 +26,6 @@ A personal portfolio website for showcasing the skills, experience, and projects
 - **Hosting**: AWS S3 for images and static assets.
 - **Version Control**: Git & GitHub.
 
-## Project Structure
-portfolio/ ├── index.html # Main HTML file ├── assets/ │ ├── css/ │ │ └── style.css # Main stylesheet │ ├── files/ │ │ └── Anes-Mehai-SWE-2025-Resume.pdf # Resume file │ ├── fontawesome/ │ │ └── css/ # Font Awesome styles │ └── js/ │ ├── script.js # General interactivity │ ├── carousel.js # Photo carousel logic │ ├── footer.js # Auto-updates footer year │ ├── scroll.js # Smooth scrolling behavior │ └── theme.js # Theme switching functionality └── README.md # Project documentation
-
-
 ## Sections Overview
 
 ### 1. **About**
