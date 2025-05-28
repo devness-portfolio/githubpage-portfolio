@@ -23,7 +23,7 @@ A personal portfolio website for showcasing the skills, experience, and projects
   - CSS3 (with custom styles in `style.css`)
   - JavaScript (for interactivity and dynamic elements)
 - **Icons**: Font Awesome for icons.
-- **Hosting**: AWS S3 for images and static assets.
+- **Hosting**: GitHub Pages for static website hosting.
 - **Version Control**: Git & GitHub.
 
 ## Sections Overview
@@ -60,20 +60,22 @@ A personal portfolio website for showcasing the skills, experience, and projects
 ### Running Locally
 1. Clone the repository:
    ```bash
-   git clone https://github.com/devness-portfolio/my-project/portfolio.git
-   cd portfolio
+   git clone https://github.com/devness-portfolio/githubpage-portfolio.git
+   cd githubpage-portfolio
 
    Open index.html in your browser to view the site.
 Deployment
-The website is hosted on a cloud platform (e.g., AWS S3). To deploy:
-Upload the portfolio/ directory to an S3 bucket.
-Enable static website hosting on the bucket.
-Configure the bucket policy for public access.
+The website is hosted on GitHub Pages. To deploy:
+
+Push your changes to the main branch.
+Enable GitHub Pages in your repository settings, choosing the main branch and / (root) as the source.
+
 Future Enhancements
 Live Demo Links: Add live demo links for projects.
 Backend Integration: Implement a contact form with backend support.
 Performance Optimization: Minify CSS and JavaScript files.
 Accessibility Improvements: Ensure WCAG compliance.
+
 License
 This project is licensed under the MIT License. Feel free to use and modify it as needed.
 
